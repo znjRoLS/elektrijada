@@ -31,7 +31,40 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="2012_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="2012_10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="2012_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="2012_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="2012_4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="2012_5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="2012_6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="2012_7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="2012_8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="2012_9.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="trick3.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
