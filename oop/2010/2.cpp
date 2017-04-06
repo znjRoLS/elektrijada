@@ -37,7 +37,7 @@ public:
     CD3(int i) : CD1(i), CD2(i) { static CandD a(i);}
 };
 
-void main( ) {
+int main( ) {
     CandD b(id++);
     static CandD c(id++);
     CD3 a(id);

@@ -2,7 +2,8 @@
 // Created by rols on 4/6/17.
 //
 
-#include "iostream.h"
+#include "iostream"
+using namespace std;
 static int b;
 class X {
     int *pi;
@@ -24,7 +25,6 @@ X funF(X x){X Xnew(5); x=Xnew; return x;}
 void g() {
     X xa=3, xb=1;
     X xc = xa;
-    4
     xa = funF(xb);
     xc = xa;
 }

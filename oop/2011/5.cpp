@@ -61,7 +61,7 @@ int check(int data[], int d[], int n) {
         if (d[i] < 0 || d[i] >= limit[(i+1)%2]) return i+2;
     return eq ? 1 : mat[d[1]][d[0]];
 }
-void main() {
+int main() {
     int n = 2, data[2] = {}, d[2] = {}, test[2] = {12, 8}, m = 4;
     int a[] = {2, 1};
     int b[] = {1, 2};

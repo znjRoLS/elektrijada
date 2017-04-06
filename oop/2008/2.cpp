@@ -2,7 +2,8 @@
 // Created by rols on 4/6/17.
 //
 
-#include <iostream.h>
+#include <iostream>
+using namespace std;
 class A {
 public:
     int i, j, k;
@@ -16,7 +17,7 @@ class C: virtual public A {
 public:
     C( ) : A(3) { }
 };
-void main() {
+int main() {
     C yy;
     B xx ;
     A zz = yy;

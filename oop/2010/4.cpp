@@ -29,7 +29,7 @@ void CrnaGora::g( int i ) {
     if (i==2010) { f(MUL(2+i,3-i));}
 }
 void f(Canj &a) { a.g(); }
-void main() {
+int main() {
     Canj b;
     CrnaGora d;
     Canj* pb = new CrnaGora;

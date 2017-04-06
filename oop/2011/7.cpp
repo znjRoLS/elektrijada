@@ -117,7 +117,7 @@ public:
     const Point operator + (const Point& ass)
     { Point res; res.x=-1; res.y=y+ass.y; return res; };
 };
-void main() {
+int main() {
     const int n = 8, m = 12;
     unsigned char e[] = { 0x16, 0x25, 0x4B, 0x72, 0x82, 0xAB, 0xD9, 0xE5 };
     unsigned char f[] = { 0xA2, 0x45, 0xCD, 0x38, 0x59, 0xFB, 0x84, 0x24,

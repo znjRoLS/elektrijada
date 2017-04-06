@@ -28,7 +28,7 @@ void Derived::g( int i ) {
     if (i==10) { f(2*i);}
 }
 void f(Base &a) { a.g(); }
-void main() {
+int main() {
     Base b;
     Derived d;
     Base* pb = new Derived;

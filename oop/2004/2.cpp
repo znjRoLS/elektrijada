@@ -21,7 +21,7 @@ public:
 };
 void Derived::f( complex<double> ){ cout << "Derived::f(complex)" << endl;}
 void Derived::g( int i ){ cout << "Derived::g() " << i << endl;}
-void main(){
+int main(){
     Base b; Derived d; Base* pb = new Derived;
     b.f(1.0);
     d.f(1.0);

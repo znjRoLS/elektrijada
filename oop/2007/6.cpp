@@ -28,7 +28,7 @@ void g(int i) {
         case 7: throw Dy(); break;
     }
 }
-void main() {
+int main() {
     for(int i=0; i<8; i++) {
         try {
             f(i);

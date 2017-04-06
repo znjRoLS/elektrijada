@@ -49,7 +49,7 @@ public:
         cout << C::no;
     };
 };
-void main( ) {
+int main( ) {
     C* d = new D;
     d->f(d);
 }

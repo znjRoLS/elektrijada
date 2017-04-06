@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include <string>
+#include <cstring>
 using namespace std;
 class Node {
 public:
@@ -87,7 +87,7 @@ char* Path::Process(char *ar) {
     cout << endl;
     if (j>1) str[len++] = c<<(9-j);
     str[len] = '\0';
-    for (i=0; i<strlen(str); i++) {
+    for (int i=0; i<strlen(str); i++) {
         c = str[i];
         for (j=0; j<8; j++)
             cout << ((c & (0x1<<(7-j))) ? 1:0);

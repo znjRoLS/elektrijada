@@ -2,7 +2,7 @@
 // Created by rols on 4/6/17.
 //
 
-#include "iostream.h"
+#include "iostream"
 #include <vector>
 using namespace std;
 class Node {

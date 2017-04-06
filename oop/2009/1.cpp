@@ -2,7 +2,8 @@
 // Created by rols on 4/6/17.
 //
 
-#include "iostream.h"
+#include "iostream"
+using namespace std;
 int dat=1;
 class KlasaB;
 class B {
@@ -17,7 +18,7 @@ public:
     A operator++(int) { cout << "B " << pod++ << dat-- << endl; A* b = new A; return *b;}
     A& operator--() { cout << "C " << dat++ << ++pod << endl; A* b = new A; return *b;}
     A operator--(int) { cout << "D " << dat--<< --pod << endl; A* b = new A; return *b;}
-    void operator+(A& b) { pod++;}
+    void operator+(A b) { pod++;}
     friend void B::f(int);
     A() : i(0), pod(dat) {pod++; cout << "CA" << endl;}
     ~A(){pod++; cout << "DC" << endl;}
@@ -39,7 +40,7 @@ KlasaB returnKlasaC(KlasaB s)
 {
     return s;
 }
-void main(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
     KlasaC x;
     A v,w;

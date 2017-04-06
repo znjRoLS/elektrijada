@@ -3,7 +3,10 @@
 //
 
 #include "stddef.h"
-#include "iostream.h"
+#include "iostream"
+
+using namespace std;
+
 template <class Xtype, int SD>
 class Node
 {

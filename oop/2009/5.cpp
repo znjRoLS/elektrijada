@@ -2,7 +2,8 @@
 // Created by rols on 4/6/17.
 //
 
-#include <iostream.h>
+#include <iostream>
+using namespace std;
 unsigned long address = 0;
 int dword = 8;
 int dd = 7;
@@ -32,7 +33,7 @@ unsigned long operator+(A a) {cout << "op+(A)ext" << endl; return address+dd+6;}
 unsigned long operator+(unsigned long g, A a) {cout << "op+(ul,A)ext" << endl; return g+6;}
 unsigned long operator-(A a) {cout << "op-(A)ext" << endl; return address-dd-7;}
 unsigned long operator-(unsigned long g, A a) {cout << "op-(g,A)ext" << endl; return g-7;}
-void main()
+int main()
 {
     A a, d, e, m, n;
     B g, h;

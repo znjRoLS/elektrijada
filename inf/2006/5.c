@@ -19,6 +19,6 @@ int a01(float f)
     return (m);
 }
 main()
-{ extern unija u; u.d=2006;
+{ union unija u; u.d=2006;
     printf("%d", a01(u.d));
 }

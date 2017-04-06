@@ -13,7 +13,7 @@ public:
     const UPInt operator--(int) {cout << mData-- << endl; return *this;}
     UPInt& operator+=(int);
 };
-void main() {
+int main() {
     UPInt i;
     UPInt j;
     ++i;

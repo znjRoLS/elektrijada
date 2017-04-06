@@ -39,7 +39,7 @@ public:
     CD3(int i) : CD1(i), CD2(i) { static CreateAndDestroy a(i);}
 };
 
-void main( ) {
+int main( ) {
     CreateAndDestroy b(id++);
     static CreateAndDestroy c(id++);
     CD3 a(id);

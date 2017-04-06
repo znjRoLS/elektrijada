@@ -48,7 +48,7 @@ public:
     void print() { B::print(); C::print(); E::print(); cout<< "F::f = " << f <<
                                                            endl; }
 };
-void main () {
+int main () {
     D x(1, 2, 3, 4, 5);
     x.print(); x.a = 7; x.B::a = 8;
     x.C::a = 9; x.print();

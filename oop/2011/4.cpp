@@ -40,7 +40,7 @@ public:
     ~CD3() {cout << id << " desC&D" << endl; }
 };
 
-void main( ) {
+int main( ) {
     CrAde b(id++);
     CD3 a(id++);
     static CrAde c(id++);

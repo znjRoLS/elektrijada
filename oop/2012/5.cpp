@@ -2,7 +2,7 @@
 // Created by rols on 4/6/17.
 //
 
-#include <string>
+#include <cstring>
 #include <iostream>
 using namespace std;
 class Seed {

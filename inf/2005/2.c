@@ -6,7 +6,7 @@
 union unija { float f; double d; } u;
 main()
 {
-    extern unija u;
+    extern union unija u;
     u.d=1;
     printf("%4.2f %4.2f", u.d, u.f);
 }

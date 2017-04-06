@@ -2,7 +2,8 @@
 // Created by rols on 4/6/17.
 //
 
-#include "iostream.h"
+#include "iostream"
+using namespace std;
 int data = 0;
 class Y;
 class X {
@@ -13,7 +14,7 @@ public:
     X operator++(int) { cout << "2 " << data++ << endl; X* b = new X; return *b;}
     X& operator--( ) { cout << "3 " << ++data << endl; X* b = new X; return *b;}
     X operator--(int) { cout << "4 " << --data << endl; X* b = new X; return *b;}
-    void operator+(X& b) { data++;}
+    void operator+(X b) { data++;}
 };
 class B
 {

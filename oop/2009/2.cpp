@@ -2,7 +2,10 @@
 // Created by rols on 4/6/17.
 //
 
-#include <iostream.h>
+#include <iostream>
+
+using namespace std;
+
 class Base
 {
     int x;
@@ -39,7 +42,7 @@ double Derived::f( double a )
     cout << "BAC" << f(2);
     return a/x+f(7);
 }
-void main()
+int main()
 {
     Derived d(3,5);
     cout << d.f( 3.4 ) << endl;

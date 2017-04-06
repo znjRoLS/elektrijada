@@ -22,7 +22,7 @@ public:
     void f(float) { f1(2,3); x = x * 10; cout << "swe" ;}
     void f1(float i, float j = 4) {x-=i*j; cout << "otk" ;}
 };
-void main()
+int main()
 {
     A a;
     B b;

@@ -25,7 +25,7 @@ public:
         else return T();
     }
     void insertHead(ENode<T> *ptr, bool b=true) {
-        par = b;
+        //par = b;
         ENode<T> *ptr1 = head, *prev1 = NULL;
         while (ptr1!=NULL && ptr->info>ptr1->info) {
             prev1 = ptr1; ptr1 = ptr1->next;
@@ -108,7 +108,7 @@ void createList(ENode<EMap> *nodes[], int n) {
         llist.insertHead(ltmp.deleteHead());
     llist.print();
 }
-void main() {
+int main() {
     ENode<EMap> *nodes[8];
     nodes[0] = new ENode<EMap>(EMap(10, 10, 20, 20));
     nodes[1] = new ENode<EMap>(EMap(15, 15, 45, 25));

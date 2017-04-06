@@ -25,7 +25,7 @@ public:
     void fun(float) { fun1(2,3); x = x * 10; cout << "canj" ;}
     void fun1(float i, float j = 4) {x-=i*j; cout << "2010" ;}
 };
-void main()
+int main()
 {
     A a;
     B b;

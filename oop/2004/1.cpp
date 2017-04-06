@@ -2,7 +2,8 @@
 // Created by rols on 4/6/17.
 //
 
-#include "iostream.h"
+#include "iostream"
+using namespace std;
 class Student;
 class Person {
 public:

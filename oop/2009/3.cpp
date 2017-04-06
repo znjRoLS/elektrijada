@@ -34,7 +34,7 @@ void Derived::g( int i ){
     catch (Derived) {cout << "AMM";}
     catch (float) {cout << "AVV";}
 }
-void main(){
+int main(){
     Base b; Derived d; Base* pb = new Derived;
 
     d.f(5.0);

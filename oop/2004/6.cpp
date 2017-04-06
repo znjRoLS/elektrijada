@@ -2,7 +2,8 @@
 // Created by rols on 4/6/17.
 //
 
-#include "iostream.h"
+#include "iostream"
+using namespace std;
 int n = 3, h0 = 256, equalCoo = 0;
 static int mX,mY,mH;
 class DrawA; class DrawB; class DrawC; class DrawD;
@@ -65,7 +66,6 @@ int main(int argc, char* argv[]){
         hlen = hlen / 2;
         x0 = x0 + (hlen / 2);
         y0 = y0 + (hlen / 2);
-        5
         mX = x0; mY = y0; mH = hlen;
         DrawA A(true, 1);
         A.mainDraw(i);

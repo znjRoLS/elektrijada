@@ -94,7 +94,7 @@ void CNIZ::Stampanje() {
     cout<<"\n";
     return;
 }
-void main() {
+int main() {
     int br1=7;
     CNIZ niz1(br1);
     niz1.Upis();

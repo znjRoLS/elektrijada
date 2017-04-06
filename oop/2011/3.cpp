@@ -40,7 +40,7 @@ public:
 };
 int C::f( int a = 5){ A b; b++; data+=a--; return a-x;}
 double C::f( double a ){ return a/x+f(5); f(1);}
-void main()
+int main()
 {
     A i, j;
     B *c = new C;

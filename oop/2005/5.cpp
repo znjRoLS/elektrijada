@@ -36,7 +36,7 @@ public:
     All(int a, int b) : NewDerivedA(a,b) , NewDerivedB(b,a){ cout<< "All" << endl;}
     double g(double a, double b , double f) { return a-2*b-f;}
 };
-void main() {
+int main() {
     Base b(4);
     Derived d(4,8);
     All pa(4, 8);

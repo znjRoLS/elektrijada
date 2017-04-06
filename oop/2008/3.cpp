@@ -37,7 +37,7 @@ public:
     CD3(int i) : CD1(), CD2(i) { static ClassA a(i);}
 };
 
-void main( ) {
+int main( ) {
     ClassA b(id++);
     static ClassA c(id++);
     CD3 a(id);

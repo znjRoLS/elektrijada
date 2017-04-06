@@ -2,7 +2,8 @@
 // Created by rols on 4/6/17.
 //
 
-#include <iostream.h>
+#include <iostream>
+using namespace std;
 #define MAXOP(a,b) a>b ? a : b
 #define DIVOP(a,b) a/b
 #define MNOP(a) a*a
