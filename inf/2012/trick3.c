@@ -1,4 +1,6 @@
-void trick3(){
+#include <stdio.h>
+
+void main(){
 
     char str1[] = { 'A', 'B', 'C', 'D', 'E' };
     char str2[] = "ABCDE";
