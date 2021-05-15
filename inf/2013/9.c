@@ -6,8 +6,8 @@
 int main()
 {
     signed char i=1, j=0;
-    for ( ; i && i<=100; i*=10, j++);
-    printf("%d\n%d", i, j);
+    for ( ; i && i<=100; i*=10, j++)
+    printf("%d - %d\n", i, j);
     for (i=100 ; j++<=10; )
         printf("\n%d", i+=i);
     return (0);

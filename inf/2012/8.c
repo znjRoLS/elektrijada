@@ -26,8 +26,9 @@ void main()
     union u_3 { T3 t; int d; } u3; u3.d=0;
     u1.t.hh=11; u1.t.mm=31; u1.t.am=1;
     u2.t.hh=11; u2.t.mm=31; u2.t.am=1;
-    u3.t.hh=11; u3.t.mm=31; u3.t.am=1;
-    printf("%x\n", u1.d);
-    printf("%x\n", u2.d);
-    printf("%x", u3.d);
+    printf("%x\n", u3.d);
+    u3.t.hh=11;
+    printf("%x\n", u3.d);u3.t.mm=31;
+    printf("%x\n", u3.d);u3.t.am=1;
+    printf("%x\n", u3.d);
 }
